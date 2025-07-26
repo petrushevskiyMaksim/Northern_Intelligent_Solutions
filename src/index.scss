@@ -1,0 +1,33 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box; // Важно для корректных расчетов размеров
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+// body {
+//     max-width: 1850px;
+//     margin: 0 auto;
+//     font-family: 'Roboto', sans-serif;
+// }
+
+body {
+    min-height: 100vh;
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    background-color: #fff;
+    color: #000;
+    overflow-x: hidden;
+}
+
+ul {
+    list-style: none;
+}

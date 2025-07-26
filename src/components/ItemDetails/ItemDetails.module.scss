@@ -1,0 +1,74 @@
+.item_details {
+    width: 480px;
+    background-color: #f2f2f2;
+    overflow-y: auto; // Скролл при необходимости
+}
+
+.item_details_body {
+    padding: 25px;
+    font-size: 14px;
+}
+
+.not_item_details {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.landStarWrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.language {
+    padding: 7px 10px;
+    border-radius: 100px;
+    background-color: #2196f3;
+    color: #fff;
+}
+
+.stars {
+    display: flex;
+    align-items: center;
+}
+
+.totalStars {
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.description {
+    margin-bottom: 15px;
+}
+
+.topicList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 25px;
+}
+
+.topic {
+    padding: 5px 10px;
+    border-radius: 100px;
+    background-color: rgba(0, 0, 0, 0.08);
+}
+
+@media (max-width: 1200px) {
+    .item_details {
+        width: 100%;
+        border-radius: 4px;
+        background-color: #f2f2f2;
+        overflow-y: auto; // Скролл при необходимости
+    }
+}
+
+@media (max-width: 425px) {
+    .not_item_details {
+        padding: 5px 10px;
+    }
+}

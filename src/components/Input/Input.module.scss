@@ -1,0 +1,14 @@
+.input {
+    :global(.MuiOutlinedInput-root) {
+        background-color: white;
+        :focus {
+            outline: none;
+            border: none;
+        }
+        :hover {
+            outline: none;
+            border: none;
+        }
+    }
+    width: 65%;
+}
