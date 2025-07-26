@@ -20,4 +20,8 @@ export default defineConfig({
     optimizeDeps: {
         include: ['@mui/material'], // MUI стили загружаются первыми
     },
+    server: {
+        port: 5173, // стандартный порт Vite
+        strictPort: true,
+    },
 });
